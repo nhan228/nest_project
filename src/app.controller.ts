@@ -7,6 +7,6 @@ export class AppController {
 
   @Post()
   getHello(): string {
-    return this.appService.getHello();
+    return this.appService.getHello()+ ' conflict branch';
   }
 }
